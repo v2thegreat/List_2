@@ -1,48 +1,48 @@
-#List_2
+# List_2
 
 List_2 is a wrapper on NumPy's array to enable it to act as a Python list.
 
 This is done to __increase the memory efficiency in Python code__ while enhancing code flexibility, as well as adding the functionality of both NumPy's array and Python list so that they can be used together
 
-##Getting Started
+## Getting Started
 
-###Choosing the Right Version
+### Choosing the Right Version
 
 There are two variations of the list_2 module, and are as follows:
 
-#####Cythonised Version:
+##### Cythonised Version:
 
-######Pros:
+###### Pros:
 * 100x Faster than Default Python version
 
-######Cons:
+###### Cons:
 * Compatable only with Python 3.6
 * Runs only on Windows
 * Difficult to modify and make changes
 
-#####Python Version:
+##### Python Version:
 
-######Pros:
+###### Pros:
 * Compatible with every Python version
 * Runs on all Operating Systems without issues
 * Easy to make changes and modify
 
-######Cons:
+###### Cons:
 * Extremely Slow
 
-####Prerequisites:
+#### Prerequisites:
 
 Running List_2 requires the python module: __NumPy__ and no additional modules
 
-#####Installing NumPy:
+##### Installing NumPy:
 
 Installing Numpy can be done by following the official [Numpy documentation](https://docs.scipy.org/doc/numpy-1.10.1/user/index.html)
 
-###Installing list_2
+### Installing list_2
 
-####Installing Cythonised list_2
+#### Installing Cythonised list_2
 
-#####Installing via pip:
+##### Installing via pip:
 
 __This has not been released on pip yet__
 
@@ -58,7 +58,7 @@ __*Note:*__ Future versions are likely to impliment the cythonised version of li
 pip install list_2
 ```
 
-#####Physical Installation:
+##### Physical Installation:
 
 Simply download the list_2 file from [here](link.for.downloading) and place it in the ```C:\Program Files\Python36\Lib``` folder
 
@@ -68,10 +68,10 @@ Further, this is only a temprory fix, and is likely to be removed in the future 
 
 Finally, it should be noted that this method is the most reliable. BUT it should also be noted that the author has not tested it out, and would change this comments after he tests it out at the official release
 
-####Installing Python Version:
+#### Installing Python Version:
 
 
-#####Installing via pip:
+##### Installing via pip:
 
 Installing via pip by the following prompt (on the command prompt):
 
@@ -81,7 +81,7 @@ pip install list_2
 
 __*Note:*__ Future versions are likely to impliment the cythonised version of list_2 as the default version, making this Python Distribution obselete
 
-#####Physical Installation:
+##### Physical Installation:
 
 Simply download the list_2 file from [here](link.for.downloading) and place it in the ```C:\Program Files\Python36\Lib``` directory
 
@@ -91,9 +91,9 @@ Further, this is only a temprory fix, and is likely to be removed in the future 
 
 Finally, it should be noted that this method is the most reliable. BUT it should also be noted that the author has not tested it out, and would change this comments after he tests it out at the official release
 
-##Running the Tests
+## Running the Tests
 
-###Unit Tests
+### Unit Tests
 <!-- Tests for list_2 are written with the assistance of unit tests, and they can be executed by the following command on the IDLE:
 
 ```
@@ -117,7 +117,7 @@ It should be noted that unit tests for the following functions hasn't been writt
 This is because these functions haven't been implimented yet, with the exception of `__repr__` function, which wasn't seen as nessesary.
 
 
-###Speed Tests
+### Speed Tests
 
 Speed/Performance tests are written as comparasion between Python's default list and list_2's functions. You can download them [here](link.for.download)
 
@@ -130,7 +130,7 @@ For these two reasons, the Python version is slower. In an attempt to speed up t
 
 Cythonised versions aren't ready yet, but they will by the end Jan. of 2018
 
-###Memory Tests
+### Memory Tests
 
 Memory Tests aren't written, but they can be checked with the following commands:
 
@@ -146,9 +146,9 @@ Memory Tests aren't written, but they can be checked with the following commands
 
 This example clearly shows that the list_2 takes less space compared to default Python lists.
 
-##Usage
+## Usage
 
-###As a more memory efficient Python list
+### As a more memory efficient Python list
 
 Using it as a Python list can be setup in the following manner:
 
@@ -174,16 +174,16 @@ or
 l=[]
 ```
 
-###As a Numpy Array
+### As a Numpy Array
 
 Using the list_2 as a Numpy Array is pretty simple; by following the following format: `<list_2 object>.arr` you can use the list_2 as a numpy array.
 This is because the Numpy Array object is located with the attribute name: `arr`
 
-###As something in between the two
+### As something in between the two
 
 Using the list_2 object can be used in a flexible manner; such as that the developer can switch seemlessly between using it as a list and an array without problems. 
 
-####For Example
+#### For Example
 
 The following operations are considered valid:
 ```
