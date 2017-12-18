@@ -415,8 +415,8 @@ class list_2:
 		return self[:] #returning a copy of self.arr
 
 def main():
-	for i in dir(list_2):
-		help(eval('list_2.'+i))
+	from unittests_list_2 import *
+	
 
 if __name__ == '__main__':
 	main()
