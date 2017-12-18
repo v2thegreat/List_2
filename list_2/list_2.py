@@ -415,8 +415,9 @@ class list_2:
 		return self[:] #returning a copy of self.arr
 
 def main():
+	import unittest
 	from unittests_list_2 import *
-	
+	unittest.main(module=Testing_list_2_modules)
 
 if __name__ == '__main__':
 	main()
